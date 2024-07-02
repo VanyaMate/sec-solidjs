@@ -4,13 +4,13 @@
         "solid-js": "^1.8.18"
     },
     "name": "@vanyamate/sec-solidjs",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Sec support for SolidJS",
     "main": "index.ts",
     "types": "./index.d.ts",
     "devDependencies": {},
     "scripts": {
-        "g:type": "tsc index.ts --declaration --emitDeclarationOnly"
+        "g:type": "tsc index.ts --declaration --emitDeclarationOnly --lib ES2021,dom"
     },
     "repository": {
         "type": "git",
