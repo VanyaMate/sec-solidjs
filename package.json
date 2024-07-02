@@ -1,0 +1,31 @@
+{
+    "dependencies": {
+        "@vanyamate/sec": "^0.1.0",
+        "solid-js": "^1.8.18"
+    },
+    "name": "@vanyamate/sec-solidjs",
+    "version": "0.0.1",
+    "description": "Sec support for SolidJS",
+    "main": "index.ts",
+    "types": "./index.d.ts",
+    "devDependencies": {},
+    "scripts": {
+        "g:type": "tsc index.ts --declaration --emitDeclarationOnly"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VanyaMate/sec-solidjs.git"
+    },
+    "keywords": [
+        "sec",
+        "solidjs",
+        "state",
+        "manager"
+    ],
+    "author": "Vanya Mate",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VanyaMate/sec-solidjs/issues"
+    },
+    "homepage": "https://github.com/VanyaMate/sec-solidjs#readme"
+}
